@@ -18,7 +18,7 @@ import com.dropbox.core.v2.files.Metadata;
 
 public class Dropbox {
 
-	private final String ACCESS_TOKEN = "sl.Bp4zaMmVh_dAfnwkB__ZnB2lrlz8nuBFtvmopCs4L5gCywEbeeeP4DNHqWtKtnA2RJfdBFgVzKPe0kSdC0y_Fe1tKQeucVu-ozZ8yVvbBSlTj5__-UTIpuy6u35eeD8dVZIZjlbnKgdRWD6T-LaO";
+	private final String ACCESS_TOKEN = "sl.Bp_iaYcBHLSJvk8DAQFQOhb66ro1iOB6roODSfhkd8CNQ73x6u09fH1NE9VEVU3mvYgtqCr87GjGh9p_17H-leMWqopfHJvzSF0CPb5552OvB0UhvXpuPuGZPPAYijW__7Y8QDPtMhw7pzuPSUqG";
 	
 	public void generateQuestionsAndAnswers(List<String> upcomingSubjects) {
 		for (String subject : upcomingSubjects) {
