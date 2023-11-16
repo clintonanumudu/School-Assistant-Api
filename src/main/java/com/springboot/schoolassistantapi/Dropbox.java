@@ -28,6 +28,8 @@ public class Dropbox {
 	}
 	
 	private void loopThroughNotes(String subject) {
+		System.out.println(ACCESS_TOKEN);
+		
 	    String dropboxFolderPath = "/School Assistant Papers/" + subject;
 	    String resourcesFolderPath = getClass().getResource("/").getPath() + "static/";
 
