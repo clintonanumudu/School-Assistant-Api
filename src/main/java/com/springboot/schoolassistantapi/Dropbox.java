@@ -28,8 +28,8 @@ public class Dropbox {
 	}
 	
 	private void loopThroughNotes(String subject) {
-		String dropboxFolderPath = "/School Assistant Papers/" + subject;
-	    String localFolderPath = System.getProperty("user.home") + "/Downloads";
+	    String dropboxFolderPath = "/School Assistant Papers/" + subject;
+	    String resourcesFolderPath = getClass().getResource("/").getPath() + "static/";
 
 	    DbxRequestConfig config = DbxRequestConfig.newBuilder("school-assistant").build();
 	    DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
@@ -40,15 +40,15 @@ public class Dropbox {
 	        for (Metadata metadata : result.getEntries()) {
 	            if (metadata instanceof FileMetadata) {
 	                String fileName = metadata.getName();
-	                String localFilePath = localFolderPath + "/School Assistant Paper.jpg";
-	                
+	                String localFilePath = resourcesFolderPath + fileName;
+
 	                try (InputStream in = client.files().download(metadata.getPathLower()).getInputStream()) {
 	                    Path localPath = Paths.get(localFilePath);
 	                    Files.copy(in, localPath, StandardCopyOption.REPLACE_EXISTING);
 	                } catch (Exception e) {
 	                    e.printStackTrace();
 	                }
-	                
+
 	                Selenium selenium = new Selenium();
 	                String paperContent = selenium.extractTextFromPaper();
 	                QAndA qanda = new QAndA();
@@ -58,8 +58,8 @@ public class Dropbox {
 	    } catch (ListFolderErrorException ex) {
 	        System.err.println("Error listing the folder contents: " + ex.getMessage());
 	    } catch (DbxException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+	        e1.printStackTrace();
+	    }
 	}
+
 }
