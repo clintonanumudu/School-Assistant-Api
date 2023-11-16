@@ -1,0 +1,87 @@
+{
+  "flashcards" : [ {
+    "question" : "How do you recognize the legal condition in a law?",
+    "answer" : "It is the legal equivalent of an if condition in programming."
+  }, {
+    "question" : "How do you recognize the legal consequence in a law?",
+    "answer" : "It is the legal equivalent of a then function in programming."
+  }, {
+    "question" : "In the following sentence, underline the legal condition blue and the legal consequence red: \"The legal capacity of a human being begins with the completion of birth.\"",
+    "answer" : "The legal capacity of a human being begins (red)\nWith the completion of birth (blue)"
+  }, {
+    "question" : "What does \"Krad\" stand for?",
+    "answer" : "Extra bike."
+  }, {
+    "question" : "How much alcohol is drunk?",
+    "answer" : "O to 3 per thousand. People can't endure more easily."
+  }, {
+    "question" : "What does the fall speed depend on?",
+    "answer" : "From the air resistance."
+  }, {
+    "question" : "What is the maximum accessible speed before opening a parachute when skydiving?",
+    "answer" : "Around 200 km/h."
+  }, {
+    "question" : "What instruments does the marketing mix consist of?",
+    "answer" : "Product policy, pricing policy, distribution policy and communication policy"
+  }, {
+    "question" : "What factors should be observed when choosing the sales channel?",
+    "answer" : "Costs, speed, customer proximity"
+  }, {
+    "question" : "What are the 2 types of market exploration?",
+    "answer" : "Systematic and unsystematic."
+  }, {
+    "question" : "What are 3 types of market research?",
+    "answer" : "Need research, sales research and competitive research."
+  }, {
+    "question" : "What questions do market research try to answer?",
+    "answer" : "What, where, how, when, on whom, how much and with which competition can be sold."
+  }, {
+    "question" : "What tasks does market research have?",
+    "answer" : "Market research has the task of gaining information about future buying behavior."
+  }, {
+    "question" : "Do you explain the terms qualitative and quantitative market research?",
+    "answer" : "The quantitative is numbers and qualitative motifs."
+  }, {
+    "question" : "What should be researched in the field of needs research?",
+    "answer" : "Facts, opinions and motifs."
+  }, {
+    "question" : "With which 12 methods can the customer sausages be determined?",
+    "answer" : "Interviews, questionnaires, group discussions, workshops, test markets, panel"
+  }, {
+    "question" : "What is the goal of market research?",
+    "answer" : "Market forecast"
+  }, {
+    "question" : "How can market research be divided in time?",
+    "answer" : "Market observation (ongoing and market starters (unique)"
+  }, {
+    "question" : "What kind of point is a saddle point?",
+    "answer" : "It is a turning point."
+  }, {
+    "question" : "What is the goal of integral?",
+    "answer" : "Calculate areas."
+  }, {
+    "question" : "What does 80%/?",
+    "answer" : "/80 g/m2 mean? One square meter corresponds to 80 grams."
+  }, {
+    "question" : "Write corresponds to a symbol?",
+    "answer" : "!"
+  }, {
+    "question" : "How was integral calculation done in the past?",
+    "answer" : "(1. Art) count through boxes of milimeter paper. (2nd type) by weighing the paper mass."
+  }, {
+    "question" : "What is a parabola used for?",
+    "answer" : "To draw square functions. Square functions always look like this."
+  }, {
+    "question" : "What is the fastest way to calculate the area of a function?",
+    "answer" : "With the help of the regular function."
+  }, {
+    "question" : "What is a stammer function?",
+    "answer" : "The degree function is derived and the storm function is the original function."
+  }, {
+    "question" : "What is the amount of a number?",
+    "answer" : "Number chne sign."
+  }, {
+    "question" : "What is the formula for calculating the main function?",
+    "answer" : "F (x) = (1/h+1) x \"N+1+C"
+  } ]
+}
